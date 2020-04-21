@@ -1,0 +1,527 @@
+
+
+  @font-face {
+    src: url(fonts/futura-heavy.ttf);
+    font-family: heavyFont;
+  }
+
+
+  @font-face {
+    src: url(fonts/futura-book.ttf);
+    font-family: bookFont;
+  }
+
+  /* hellooooOOOOooooO these are just to organize things for myself into sections*/
+
+  header {
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+
+  p {
+    font-family: bookFont;
+  }
+  
+  h1, h2, h3 {
+    font-family: heavyFont;
+    letter-spacing: 0.5px;
+  }
+  
+
+
+    /* hellooooOOOOooooO these are just to organize things for myself into sections*/
+
+    .innerNav {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 15px;
+    }
+    .innerNav img {
+      position: absolute;
+      top: 60px;
+      width: 40px;
+      height: 40px;
+    }
+
+    nav {
+      background-color: rgba(255, 255, 255);
+      position: absolute;
+      text-align: center;
+      top: 100%;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav li {
+      margin-bottom: 1em;
+    }
+
+    nav a {
+      display: block;
+      opacity: 0;
+      position: relative;
+      height: 5px;
+      color: rgb(31, 31, 31);
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: heavyFont;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+
+  
+    /* hellooooOOOOooooO these are just to organize things for myself into sections*/
+
+
+
+  .hero {
+    padding-bottom: 10px;
+  }
+
+  .heroText {
+    padding: 15px;
+    padding-top: 190px;
+    height: 810px;
+    background-image: url(img/backgrounds/hero-bg-texture.png);
+    background-size: 610px 480px;
+    background-position: center;
+    background-position-y: 190px;
+    background-repeat: no-repeat;
+  }
+
+  .heroText h1 {
+    color: rgb(31, 31, 31);
+    line-height: 30px;
+    font-size: 25px;
+    width: 290px;
+  }
+
+  .heroText h1 span {
+    display: flex;
+  }
+  .heroText img {
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+  }
+
+  .logo {
+    display: flex;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 45px;
+  }
+
+
+    /* hellooooOOOOooooO these are just to organize things for myself into sections*/
+
+  
+  .featureList {
+    padding: 30px;
+  }
+  
+  .featureList h1 {
+    color: rgb(74, 84, 238);
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .featureList .individualCard {
+    background-color: rgba(255, 255, 255);
+    width: 350px;
+    height: 110px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 25px;
+  }
+
+  .featureList .individualCard h3 {
+    font-family: bookFont;
+    padding-right: 50px;
+    color: rgb(31, 31, 31);
+  }
+
+  .featureList .individualCard img {
+    width: 18px;
+  }
+
+
+
+      /* hellooooOOOOooooO these are just to organize things for myself into sections*/
+
+  .blendHeader {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blendHeader h1 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    line-height: 32px;
+    color: blue;
+  }
+
+  .integrationsLogo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .socialMedia img {
+    padding: 50px;
+    width: 90px;
+    height: 30px;
+  }
+
+  .socialMediaBIG img {
+    padding: 50px;
+    width: 85px;
+    height: 55px;  
+  }
+
+      /* hellooooOOOOooooO these are just to organize things for myself into sections*/
+
+
+  footer {
+    padding-top: 30px;
+    background: rgb(81, 90, 223);
+  }
+  footer h2 {
+    text-align: center;
+    color: rgba(255, 255, 255);
+    padding-bottom: 30px;
+  }
+  footer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .theList, .inputName, .inputEmail {
+    background: rgb(199, 149, 233);
+    border-radius: 35px;
+    margin-top: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+
+  .inputReference {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5;
+    width: 470px;
+    margin: auto;
+    height: 50px;
+    background: transparent;
+    border: none;
+  }
+
+  .integrationsLogo, img {
+    width: 100%;
+  }
+
+  input, input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5;
+    width: 468px;
+    margin: auto;
+    height: 49px;
+    background: transparent;
+    border: none;
+    padding-left: 5px;
+  }
+ 
+
+
+
+
+  footer form button {
+    background: rgba(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 35px;
+    text-transform: uppercase;
+  }
+  
+  .footerLinks ul {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .footerLinks ul li {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 15px;
+    line-height: 30px;
+  }
+  .footerLinks ul li a {
+    text-decoration: none;
+    font-family: bookFont;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media screen and (min-width: 576px) {
+
+    .blendHeader h1 {
+      font-size: 45px;
+      text-align: left;
+      line-height: 64px;
+      justify-content: center;
+    }
+  }
+
+
+
+
+
+  @media screen and (min-width: 992px) {
+
+    .heroText {
+      background-position-y: 180px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 1030px;
+    }
+
+    .heroText h1 {
+      font-size: 50px;
+      line-height: 65px;
+      letter-spacing: 1px;
+      margin-left: 15px;
+      width: 300px;
+    }
+
+
+
+  
+    .cardContainer .individualCard {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 760px;
+    }
+
+    .inputReference, input {
+      display: flex;
+    }
+
+
+
+    footer form button {
+      margin-top: 15px;
+    }
+
+    footer .footerLinks {
+      margin-right: 130px;
+      padding-bottom: 40px;
+    }
+  
+    footer h2 {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      font-size: 50px;
+    }
+
+  }
+
+
+
+
+
+  @media screen and (min-width: 1200px) {
+
+    .innerNav {
+      display: none;
+    }
+
+    nav a {
+      display: block;
+      opacity: 1;
+      position: relative;
+      height: 5px;
+      color: rgb(31, 31, 31);
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: heavyFont;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+  
+    nav {
+      all: unset;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    nav ul {
+      display: flex;
+      align-items: center;
+    }
+
+    nav li {
+      margin-left: 3em;
+      margin-bottom: 0;
+    }
+
+
+    .bigButton {
+      display: flex;
+      margin-left: 85px;
+      background: rgb(52, 108, 230);
+      border-radius: 100px;
+      width: 175px;
+      height: 50px;
+    }
+
+    .bigButton a {
+      color: rgba(255, 255, 255);
+      margin: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .smallButton a {
+      margin-top: 35px;
+      color: rgb(0, 0, 0);
+      display: flex;
+      width: 100px;
+      height: 50px;
+
+
+    }
+
+
+    .hero {
+      padding-bottom: 10px;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 50px;
+      display: flex;
+    }
+
+    .heroText h1 {
+      width: 720px;
+      margin-left: 130px;
+      position: absolute;
+      left: 0;
+    }
+
+    .heroText .individualCard {
+      margin-top: 250px;
+      max-width: 760px;
+    }
+
+    .hero .logo {
+      margin-top: 0;
+    }
+
+    .heroText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: url(img/backgrounds/hero-bg-cards.png), url(img/backgrounds/hero-bg-texture.png);
+      background-position: center;
+      background-position-y: 245px, 179px;
+      background-repeat: no-repeat;
+      background-size: 100% 780px, 100% 780px;
+      height: 1031px;
+    }
+
+
+    .integrationsLogo {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+  
+    .featureList h1 {
+      font-size: 50px;
+      margin-bottom: 150px;
+    }
+
+    .cardContainer {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 50px;
+    }
+
+    .individualCard {
+      max-width: 330px;
+      margin-bottom: 150px;
+    }
+
+    .exampleImage {
+      display: flex;
+      justify-content: center;
+      max-width: 70%;
+      margin-left: 200px;
+    }
+
+    .theList, .inputName, .inputEmail {
+      background: rgb(199, 149, 233);
+      border-radius: 35px;
+      margin-top: 7.5px;
+      width: 500px;
+      margin-bottom: 10px;
+    }
+
+    footer form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
